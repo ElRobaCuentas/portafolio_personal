@@ -299,3 +299,11 @@ Para tareas de múltiples pasos, establece un plan breve:
 [Paso] → verificar: [chequeo]
 
 [Paso] → verificar: [chequeo]
+
+
+## 🛠️ Git & Workflow Standards
+
+- **Conventional Commits**: Al finalizar una tarea, sugiéreme un mensaje de commit siguiendo el estándar de Conventional Commits.
+  - Formato: `type: descripción breve en minúsculas` (ej: `feat: add hero section animations`).
+  - Tipos: `feat` (nueva característica), `fix` (corrección), `docs` (documentación), `style` (formato/diseño), `refactor` (limpieza de código).
+- **Branch Context**: Asume siempre que la rama principal es `main`.
