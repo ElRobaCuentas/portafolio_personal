@@ -1,0 +1,107 @@
+╔═══════════════════════════════════════════════════════════════╗
+║  📦 INSTALAR DEPENDENCIAS - PASOS RÁPIDOS                   ║
+╚═══════════════════════════════════════════════════════════════╝
+
+El ambiente no permite ejecutar npm directamente, pero es muy fácil
+hacerlo en tu terminal. ¡Solo 3 pasos!
+
+═══════════════════════════════════════════════════════════════
+
+🖥️  OPCIÓN 1: WINDOWS (RECOMENDADO - AUTOMÁTICO)
+
+1. Abre PowerShell o CMD
+2. Ve a tu carpeta:
+   cd C:\ProyectosWeb\MyPersonalPortfolio
+
+3. Ejecuta:
+   .\setup.bat
+
+4. ¡Espera a que termine! (2-5 minutos)
+
+5. Luego:
+   npm run dev
+
+═══════════════════════════════════════════════════════════════
+
+🍎 OPCIÓN 2: macOS/LINUX (AUTOMÁTICO)
+
+1. Abre Terminal
+2. Ve a tu carpeta:
+   cd path/to/MyPersonalPortfolio
+
+3. Ejecuta:
+   chmod +x setup.sh && ./setup.sh
+
+4. ¡Espera a que termine! (2-5 minutos)
+
+5. Luego:
+   npm run dev
+
+═══════════════════════════════════════════════════════════════
+
+⚙️  OPCIÓN 3: MANUAL (TODAS LAS PLATAFORMAS)
+
+1. Abre terminal/PowerShell/CMD
+2. Ve a la carpeta del proyecto
+3. Ejecuta:
+   npm install
+
+4. Espera a que termine
+5. Luego:
+   npm run dev
+
+═══════════════════════════════════════════════════════════════
+
+✅ QUÉS SUCEDE DURANTE npm install
+
+- Se descargan todos los paquetes de npm
+- Se crea la carpeta node_modules/ (~500MB)
+- Se resuelven todas las dependencias
+- Se genera package-lock.json
+
+Tiempo: 2-5 minutos (primera vez)
+
+═══════════════════════════════════════════════════════════════
+
+🎯 DESPUÉS DE npm install
+
+Ejecuta:
+  npm run dev
+
+Deberías ver:
+  ✓ VITE v5.0.0 ready in XXXms
+  ✓ Local: http://localhost:5173/
+  ✓ Press h to show help
+
+¡Tu navegador se abrirá automáticamente!
+
+═══════════════════════════════════════════════════════════════
+
+📦 SE INSTALARÁN ESTOS PAQUETES
+
+React Ecosystem:
+  • react@18.2.0
+  • react-dom@18.2.0
+  • framer-motion@10.16.0
+
+Build Tools:
+  • vite@5.0.0
+  • @vitejs/plugin-react@4.2.0
+
+Styling:
+  • tailwindcss@3.4.0
+  • postcss@8.4.0
+  • autoprefixer@10.4.0
+
+Development:
+  • eslint@8.55.0
+  • prettier@3.1.0
+
+═══════════════════════════════════════════════════════════════
+
+✨ ¡YA ESTÁ TODO CONFIGURADO!
+
+Solo necesitas ejecutar npm install y npm run dev.
+No hay más configuración necesaria.
+
+═══════════════════════════════════════════════════════════════
